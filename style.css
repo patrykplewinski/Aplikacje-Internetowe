@@ -1,0 +1,19 @@
+#container {
+    width: 500px;
+    background-color: black;
+    margin: 0 auto;
+}
+#container >div {
+    width: 75%;
+}
+div {
+    background-color: magenta;
+}
+div.second{
+    height: 24px;
+    background-color:brown;
+    transition: all 1s linear;
+}
+div.second:hover{
+    height: 300px;
+}
